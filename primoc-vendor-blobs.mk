@@ -93,7 +93,9 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/bin/zcb:/system/bin/zcb \
     vendor/htc/primoc/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/primoc/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
+    vendor/htc/primoc/proprietary/lib/hw/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer.msm7x30.so \
     vendor/htc/primoc/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so
+
 # Temp
 PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libhardware_legacy.so:/system/lib/libhardware_legacy.so
