@@ -69,6 +69,7 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/htc/primoc/proprietary/lib/libsurfaceflinger_client.so:/system/lib/libsurfaceflinger_client.so \
     vendor/htc/primoc/proprietary/lib/libzoomTransition.so:system/lib/libzoomTransition.so \
+    vendor/htc/primoc/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so \
     vendor/htc/primoc/proprietary/lib/hw/camera.default.so:system/lib/hw/camera.default.so 
 
 # Ril
@@ -82,18 +83,32 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primoc/proprietary/lib/libqdp.so:/system/lib/libqdp.so \
     vendor/htc/primoc/proprietary/lib/libril.so:/system/lib/libril.so \
     vendor/htc/primoc/proprietary/lib/libqmi.so:/system/lib/libqmi.so
+	
+# EGL
+PRODUCT_COPY_FILES += \
+    vendor/htc/primoc/proprietary/etc/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
+    vendor/htc/primoc/proprietary/etc/firmware/a225_pm4.fw:/system/etc/firmware/a225_pm4.fw \
+    vendor/htc/primoc/proprietary/etc/firmware/a225p5_pm4.fw:/system/etc/firmware/a225p5_pm4.fw \
+    vendor/htc/primoc/proprietary/etc/firmware/a300_pfp.fw:/system/etc/firmware/a300_pfp.fw \
+    vendor/htc/primoc/proprietary/etc/firmware/a300_pm4.fw:/system/etc/firmware/a300_pm4.fw \
+    vendor/htc/primoc/proprietary/etc/firmware/leia_pfp_470.fw:/system/etc/firmware/leia_pfp_470.fw \
+    vendor/htc/primoc/proprietary/etc/firmware/leia_pm4_470.fw:/system/etc/firmware/leia_pm4_470.fw \
+    vendor/htc/primoc/proprietary/etc/firmware/yamato_pfp.fw:/system/etc/firmware/yamato_pfp.fw \
+    vendor/htc/primoc/proprietary/etc/firmware/yamato_pm4.fw:/system/etc/firmware/yamato_pm4.fw \
+    vendor/htc/primoc/proprietary/lib/libC2D2.so:/system/lib/libC2D2.so \
+    vendor/htc/primoc/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
+    vendor/htc/primoc/proprietary/lib/libc2d2_z180.so:/system/lib/libc2d2_z180.so
+
 
 # Random Crap..Verify necessity 
 PRODUCT_COPY_FILES += \
-    vendor/htc/primoc/proprietary/lib/libOpenVG.so:/system/lib/libOpenVG.so \
     vendor/htc/primoc/proprietary/bin/bma150_usr:/system/bin/bma150_usr \
     vendor/htc/primoc/proprietary/bin/logcat2:/system/bin/logcat2 \
     vendor/htc/primoc/proprietary/bin/rmt_storage:/system/bin/rmt_storage \
     vendor/htc/primoc/proprietary/bin/zcb:/system/bin/zcb \
     vendor/htc/primoc/proprietary/lib/libgemini.so:/system/lib/libgemini.so \
     vendor/htc/primoc/proprietary/lib/libOlaEngine.so:system/lib/libOlaEngine.so \
-    vendor/htc/primoc/proprietary/lib/hw/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer.msm7x30.so \
-    vendor/htc/primoc/proprietary/lib/libposteffect.so:/system/lib/libposteffect.so
+    vendor/htc/primoc/proprietary/lib/hw/hwcomposer.msm7x30.so:system/lib/hw/hwcomposer.msm7x30.so
 
 # Temp
 PRODUCT_COPY_FILES += \
